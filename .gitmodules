@@ -1,0 +1,167 @@
+[submodule "libs/googletest"]
+	path = libs/googletest
+	url = https://github.com/CMakeezer/googletest
+[submodule "libs/alloy"]
+	path = libs/alloy
+	url = https://github.com/CMakeezer/alloy
+[submodule "libs/lambda"]
+	path = libs/lambda
+	url = https://github.com/CMakeezer/lambda
+[submodule "libs/rapidjson"]
+	path = libs/rapidjson
+	url = https://github.com/CMakeezer/rapidjson
+[submodule "libs/cat"]
+	path = libs/cat
+	url = https://github.com/CMakeezer/cat
+[submodule "libs/sqlite_orm"]
+	path = libs/sqlite_orm
+	url = https://github.com/CMakeezer/sqlite_orm
+[submodule "libs/libpcap"]
+	path = libs/libpcap
+	url = https://github.com/CMakeezer/libpcap
+[submodule "libs/brigand"]
+	path = libs/brigand
+	url = https://github.com/CMakeezer/brigand
+[submodule "libs/dynamix"]
+	path = libs/dynamix
+	url = https://github.com/CMakeezer/dynamix
+[submodule "libs/gherkin-cpp"]
+	path = libs/gherkin-cpp
+	url = https://github.com/CMakeezer/gherkin-cpp
+[submodule "libs/fmem"]
+	path = libs/fmem
+	url = https://github.com/CMakeezer/fmem
+[submodule "libs/gherkin-c"]
+	path = libs/gherkin-c
+	url = https://github.com/CMakeezer/gherkin-c
+[submodule "libs/te"]
+	path = libs/te
+	url = https://github.com/CMakeezer/te
+[submodule "libs/valuable"]
+	path = libs/valuable
+	url = https://github.com/CMakeezer/valuable
+[submodule "libs/trompeloeil"]
+	path = libs/trompeloeil
+	url = https://github.com/CMakeezer/trompeloeil
+[submodule "libs/variant"]
+	path = libs/variant
+	url = https://github.com/CMakeezer/variant
+[submodule "libs/json"]
+	path = libs/json
+	url = https://github.com/CMakeezer/json
+[submodule "libs/curl"]
+	path = libs/curl
+	url = https://github.com/CMakeezer/curl
+[submodule "libs/continuable"]
+	path = libs/continuable
+	url = https://github.com/CMakeezer/continuable
+[submodule "libs/function2"]
+	path = libs/function2
+	url = https://github.com/CMakeezer/function2
+[submodule "libs/CLUE"]
+	path = libs/CLUE
+	url = https://github.com/CMakeezer/CLUE
+[submodule "libs/benchmark"]
+	path = libs/benchmark
+	url = https://github.com/CMakeezer/benchmark
+[submodule "libs/cmcstl2"]
+	path = libs/cmcstl2
+	url = https://github.com/CMakeezer/cmcstl2
+[submodule "libs/libtins"]
+	path = libs/libtins
+	url = https://github.com/CMakeezer/libtins
+[submodule "libs/range-v3"]
+	path = libs/range-v3
+	url = https://github.com/CMakeezer/range-v3
+[submodule "libs/hana"]
+	path = libs/hana
+	url = https://github.com/CMakeezer/hana
+[submodule "libs/FakeIt"]
+	path = libs/FakeIt
+	url = https://github.com/CMakeezer/FakeIt
+[submodule "libs/GSL"]
+	path = libs/GSL
+	url = https://github.com/CMakeezer/GSL
+[submodule "libs/Catch2"]
+	path = libs/Catch2
+	url = https://github.com/CMakeezer/Catch2
+[submodule "libs/SFML"]
+	path = libs/SFML
+	url = https://github.com/CMakeezer/SFML
+[submodule "libs/backward-cpp"]
+	path = libs/backward-cpp
+	url = https://github.com/CMakeezer/backward-cpp
+[submodule "libs/lager"]
+	path = libs/lager
+	url = https://github.com/CMakeezer/lager
+[submodule "libs/dyno"]
+	path = libs/dyno
+	url = https://github.com/CMakeezer/dyno
+[submodule "libs/immer"]
+	path = libs/immer
+	url = https://github.com/CMakeezer/immer
+[submodule "libs/asyncplusplus"]
+	path = libs/asyncplusplus
+	url = https://github.com/CMakeezer/asyncplusplus
+[submodule "libs/metal"]
+	path = libs/metal
+	url = https://github.com/CMakeezer/metal
+[submodule "libs/hippomocks"]
+	path = libs/hippomocks
+	url = https://github.com/CMakeezer/hippomocks
+[submodule "libs/libraries"]
+	path = libs/libraries
+	url = https://github.com/CMakeezer/libraries
+[submodule "libs/tiny-dnn"]
+	path = libs/tiny-dnn
+	url = https://github.com/CMakeezer/tiny-dnn
+[submodule "libs/tacopie"]
+	path = libs/tacopie
+	url = https://github.com/CMakeezer/tacopie
+[submodule "libs/CppMicroServices"]
+	path = libs/CppMicroServices
+	url = https://github.com/CMakeezer/CppMicroServices
+[submodule "libs/hof"]
+	path = libs/hof
+	url = https://github.com/CMakeezer/hof
+[submodule "libs/atria"]
+	path = libs/atria
+	url = https://github.com/CMakeezer/atria
+[submodule "libs/Synca"]
+	path = libs/Synca
+	url = https://github.com/CMakeezer/Synca
+[submodule "libs/cmake-findgmock"]
+	path = libs/cmake-findgmock
+	url = https://github.com/CMakeezer/cmake-findgmock
+[submodule "libs/SDL-mirror"]
+	path = libs/SDL-mirror
+	url = https://github.com/spurious/SDL-mirror
+[submodule "libs/cxxopts"]
+	path = libs/cxxopts
+	url = https://github.com/CMakeezer/cxxopts
+[submodule "libs/variant-1"]
+	path = libs/variant-1
+	url = https://github.com/CMakeezer/variant-1
+[submodule "libs/nana"]
+	path = libs/nana
+	url = https://github.com/CMakeezer/nana
+[submodule "libs/glfw"]
+	path = libs/glfw
+	url = https://github.com/CMakeezer/glfw
+[submodule "libs/cxx_function"]
+	path = libs/cxx_function
+	url = https://github.com/CMakeezer/cxx_function
+[submodule "libs/zlib"]
+	path = libs/zlib
+	url = https://github.com/CMakeezer/zlib
+[submodule "libs/asio"]
+	path = libs/asio
+	url = https://github.com/CMakeezer/asio
+[submodule "libs/libev"]
+	path = libs/libev
+	url = https://github.com/CMakeezer/libev
+[submodule "libs/GUnit"]
+	path = libs/GUnit
+	url = https://github.com/CMakeezer/GUnit
+[submodule "libs/cpp_redis"]
+	url = https://github.com/CMakeezer/cpp_redis
