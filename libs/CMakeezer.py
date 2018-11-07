@@ -48,7 +48,7 @@ def my_function(lib, *dupa):
 	
 	subprocess.call(["cmake",  generator_opt, hOption, bOption, inst_opt, module_opt,prefix_opt, "-DBUILD_SHARED_LIBS=OFF"] +  list(dupa))
 	if is_tool("gcc") :
-		subprocess.call(["cmake","--build", bOption2, "--" , "-j8"])
+		subprocess.call(["cmake","--build", bOption2])
 	else :
 		subprocess.call(["cmake","--build", bOption2])
 	subprocess.call(["cmake","--build", bOption2, "--target" ,"install"])
@@ -57,7 +57,6 @@ def my_function(lib, *dupa):
 
 
 my_function("zlib")
-
 my_function("googletest", "-DBUILD_GTEST=ON", "-DBUILD_GMOCK=ON", "-Dgtest_build_tests=OFF",  "-Dgtest_build_samples=OFF")
 my_function("Catch2" , "-DCATCH_ENABLE_WERROR=OFF", "-DBUILD_TESTING=FALSE", "-DNOT_SUBPROJECT=FALSE")
 my_function("hof", "-DBUILD_EXAMPLES=OFF")
@@ -107,16 +106,16 @@ my_function("libraries")
 my_function("lager", "-DBUILD_EXAMPLES=OFF", "-DBUILD_TESTS=OFF", "-DBUILD_DEBUGGER=OFF")
 my_function("nana")
 my_function("dyno")
-
 my_function("glfw")
-
 my_function("cpp_redis" , "-DBUILD_TESTS=OFF", "-DBUILD_TESTS=ON")
 #my_function("wt", "-DBUILD_EXAMPLES=OFF", "-DINSTALL_EXAMPLES=OFF", "-DINSTALL_DOCUMENTATION=OFF", "-DENABLE_LIBWTTEST=OFF")
 
-
+my_function("libev")
+my_function("mongoose", "-DBUILD_EXAMPLES=OFF", "-DENABLE_SSL=OFF")
 my_function("cxx_function")
-my_function("YourProjectStartHere")
 
+
+my_function("YourProjectStartHere")
 
 print("##############################################################")
 print("##############################################################")

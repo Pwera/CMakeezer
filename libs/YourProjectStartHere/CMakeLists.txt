@@ -34,6 +34,8 @@ find_package(lambda)                        #lambda::lambda
 find_package(HippoMocks)
 find_package(Metal)
 find_package(zlib)
+find_package(libev)
+find_package(mongoose)
 
 if(MSVC) ## TODO: Finish me
     set(CMAKE_CXX_FLAGS_RELEASE "/MT /O2 /Ob2 /DNDEBUG")
@@ -71,7 +73,10 @@ if(TARGET zlib::zlib)
 else()
     CreateOptionalTargetWithDependency(ZlibSample src/Zlib.cpp ZLIB::ZLIB) #Provided by Cmake
 endif()
+CreateOptionalTargetWithDependency(MongooseSample src/Mongoose.cpp mongoose::mongoose)
 ]]
+
+
 enable_testing()
 
 if (TARGET FakeIt::FakeIt AND TARGET GTest::GTest AND TARGET GTest::Main)

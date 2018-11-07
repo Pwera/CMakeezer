@@ -164,4 +164,8 @@
 	path = libs/GUnit
 	url = https://github.com/CMakeezer/GUnit
 [submodule "libs/cpp_redis"]
+	path = libs/cpp_redis
 	url = https://github.com/CMakeezer/cpp_redis
+[submodule "libs/mongoose"]
+	path = libs/mongoose
+	url = https://github.com/CMakeezer/mongoose
