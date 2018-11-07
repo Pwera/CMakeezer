@@ -169,3 +169,6 @@
 [submodule "libs/mongoose"]
 	path = libs/mongoose
 	url = https://github.com/CMakeezer/mongoose
+[submodule "libs/cpr"]
+	path = libs/cpr
+	url = https://github.com/CMakeezer/cpr
