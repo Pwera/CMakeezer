@@ -172,3 +172,9 @@
 [submodule "libs/cpr"]
 	path = libs/cpr
 	url = https://github.com/CMakeezer/cpr
+[submodule "libs/kangaru"]
+	path = libs/kangaru
+	url = https://github.com/CMakeezer/kangaru
+[submodule "libs/cppJNI"]
+	path = libs/cppJNI
+	url = https://github.com/nokia/cppJNI
