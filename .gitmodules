@@ -177,4 +177,4 @@
 	url = https://github.com/CMakeezer/kangaru
 [submodule "libs/cppJNI"]
 	path = libs/cppJNI
-	url = https://github.com/nokia/cppJNI
+	url = https://github.com/CMakeezer/cppJNI

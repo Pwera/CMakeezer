@@ -116,12 +116,15 @@ my_function("cpp_redis" , "-DBUILD_TESTS=OFF", "-DBUILD_TESTS=ON")
 my_function("libev")
 my_function("mongoose", "-DBUILD_EXAMPLES=OFF", "-DENABLE_SSL=OFF")
 my_function("cxx_function")
-'''
+
 #my_function("cpr", "-DBUILD_CPR_TESTS=OFF")
+my_function("cppJNI", "-DBUILD_TESTS=ON")
 
-#my_function("YourProjectStartHere")
+#my_function("kangaru", "-DKANGARU_BUILD_EXAMPLES=ON", "-DKANGARU_TEST=ON")
+'''
+my_function("YourProjectStartHere")
 
-my_function("kangaru", "-DKANGARU_BUILD_EXAMPLES=ON", "-DKANGARU_TEST=ON")
+
 
 print("##############################################################")
 print("##############################################################")
