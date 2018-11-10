@@ -58,10 +58,8 @@ def my_function(lib, *dupa):
 
 	return
 
-'''
-#my_function("zlib")
+my_function("zlib")
 my_function("curl", "-DBUILD_TESTING=OFF")
-
 my_function("googletest", "-DBUILD_GTEST=ON", "-DBUILD_GMOCK=ON", "-Dgtest_build_tests=OFF",  "-Dgtest_build_samples=OFF")
 my_function("Catch2" , "-DCATCH_ENABLE_WERROR=OFF", "-DBUILD_TESTING=FALSE", "-DNOT_SUBPROJECT=FALSE")
 my_function("hof", "-DBUILD_EXAMPLES=OFF")
@@ -116,12 +114,9 @@ my_function("cpp_redis" , "-DBUILD_TESTS=OFF", "-DBUILD_TESTS=ON")
 my_function("libev")
 my_function("mongoose", "-DBUILD_EXAMPLES=OFF", "-DENABLE_SSL=OFF")
 my_function("cxx_function")
-
-#my_function("cpr", "-DBUILD_CPR_TESTS=OFF")
+my_function("cpr", "-DBUILD_CPR_TESTS=OFF")
 my_function("cppJNI", "-DBUILD_TESTS=ON")
-
-#my_function("kangaru", "-DKANGARU_BUILD_EXAMPLES=ON", "-DKANGARU_TEST=ON")
-'''
+my_function("kangaru", "-DKANGARU_BUILD_EXAMPLES=ON", "-DKANGARU_TEST=ON")
 my_function("YourProjectStartHere")
 
 
