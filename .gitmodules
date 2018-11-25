@@ -97,9 +97,6 @@
 [submodule "libs/dyno"]
 	path = libs/dyno
 	url = https://github.com/CMakeezer/dyno
-[submodule "libs/immer"]
-	path = libs/immer
-	url = https://github.com/CMakeezer/immer
 [submodule "libs/asyncplusplus"]
 	path = libs/asyncplusplus
 	url = https://github.com/CMakeezer/asyncplusplus
