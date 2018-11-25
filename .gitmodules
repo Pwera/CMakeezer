@@ -175,3 +175,6 @@
 [submodule "libs/cppJNI"]
 	path = libs/cppJNI
 	url = https://github.com/CMakeezer/cppJNI
+[submodule "libs/immer"]
+	path = libs/immer
+	url = https://github.com/CMakeezer/immer
