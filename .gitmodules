@@ -118,9 +118,6 @@
 [submodule "libs/CppMicroServices"]
 	path = libs/CppMicroServices
 	url = https://github.com/CMakeezer/CppMicroServices
-[submodule "libs/hof"]
-	path = libs/hof
-	url = https://github.com/CMakeezer/hof
 [submodule "libs/atria"]
 	path = libs/atria
 	url = https://github.com/CMakeezer/atria
