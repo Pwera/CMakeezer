@@ -46,9 +46,6 @@
 [submodule "libs/variant"]
 	path = libs/variant
 	url = https://github.com/CMakeezer/variant
-[submodule "libs/json"]
-	path = libs/json
-	url = https://github.com/CMakeezer/json
 [submodule "libs/curl"]
 	path = libs/curl
 	url = https://github.com/CMakeezer/curl
@@ -103,9 +100,6 @@
 [submodule "libs/metal"]
 	path = libs/metal
 	url = https://github.com/CMakeezer/metal
-[submodule "libs/hippomocks"]
-	path = libs/hippomocks
-	url = https://github.com/CMakeezer/hippomocks
 [submodule "libs/libraries"]
 	path = libs/libraries
 	url = https://github.com/CMakeezer/libraries
@@ -166,12 +160,6 @@
 [submodule "libs/cpr"]
 	path = libs/cpr
 	url = https://github.com/CMakeezer/cpr
-[submodule "libs/kangaru"]
-	path = libs/kangaru
-	url = https://github.com/CMakeezer/kangaru
 [submodule "libs/cppJNI"]
 	path = libs/cppJNI
 	url = https://github.com/CMakeezer/cppJNI
-[submodule "libs/immer"]
-	path = libs/immer
-	url = https://github.com/CMakeezer/immer
